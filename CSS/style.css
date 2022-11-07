@@ -40,9 +40,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
-
-
 
 
 /*Селектор по id*/
@@ -57,7 +56,7 @@ header nav li {
 }
 
 /*Вложенность от родителя не больше 4-х уровней,
-если проблела нету значит все классы должны быть в элементе _ .container.d_flex
+если пробела нет значит все классы должны быть в элементе _ .container.d_flex
 если с запятой и через пробел то значение присвоиться обоим классам - .container, .d-flex */
 header nav li a {
     font-family: 'montserratregular';
@@ -107,7 +106,7 @@ header nav li a:hover {
     box-sizing: border-box;
     height: 57px;
     background-color: rgba(255, 255, 255, 0.2);
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 17px;
@@ -152,7 +151,6 @@ border: 1px solid #7EC4BD;
     font-size: 17px;
     line-height: 22px;
     text-align: center;
-    color: #8BCAC3;
 }
 
 
@@ -171,4 +169,223 @@ border: 1px solid #7EC4BD;
 .for_input_name_budget:focus, .for_input_email:focus, .for_text_area:focus {
     outline: none;
     background-color: #7EC4BD;
+}
+
+/*-----------------class="main_banner"-------------------*/
+.main_banner {
+    min-height: 391px;
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+
+.main_banner h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main_banner p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.main_banner h1:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.main_banner_description {
+    background-color: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.main_banner_description p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    margin-bottom: 39px;
+
+}
+
+.main_banner_description a {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #47474F;
+    display: inline-block;
+    padding: 13px 34px 20px;
+    border: solid 1px #47474F;
+    border-bottom: solid 2px #47474F;
+    text-decoration: none;
+}
+
+/*-----------------class="main_banner_description"---------*/
+
+.brands h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.brands h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 79px;
+}
+
+.brands h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.brands p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 74px;
+}
+.block {
+    width: 300px;
+    height: 219px;
+    background: #F5F5F5;
+    margin-bottom: 38px;
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.brands img {
+    margin: auto;
+}
+
+
+/*-------------class="projects"-------------------*/
+
+.projects_zone {
+    height: 1469px;
+    background: #F5F5F5;
+    display: flex;;
+}
+
+
+.brands h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.projects_zone h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 79px;
+
+}
+
+.projects_zone h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.projects_zone p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 21px;
+}
+
+.blocks_projects {
+    width: 300px;
+    height: 84px;
+    background: chartreuse;
+    display: flex;
+
+
+}
+
+.projects_zone h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    background: rgba(0, 0, 0, 0.09);
+}
+
+.projects_zone article {
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    max-width: 300px;
 }
