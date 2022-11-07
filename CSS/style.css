@@ -32,7 +32,7 @@ header{
 /*Селектор по классу*/
 .container{
     max-width: 940px;
-    margin: auto;
+    margin:auto;
 }
 
 /*Селектор по классу (универсальный класс)*/
@@ -248,18 +248,8 @@ border: 1px solid #7EC4BD;
 
 /*-----------------class="main_banner_description"---------*/
 
-.brands h2:after {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 2px;
-    margin: auto;
-    margin-top: 28px;
-    margin-bottom: 25px;
-    background: rgba(0, 0, 0, 0.09);
-}
 
-.brands h2 {
+.brands h2, .projects_zone h2 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -280,6 +270,9 @@ border: 1px solid #7EC4BD;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    margin-top: 32px;
+    margin-bottom: 20px;
+
 }
 
 .brands p {
@@ -290,34 +283,12 @@ border: 1px solid #7EC4BD;
     line-height: 22px;
     text-align: center;
     color: #333333;
-    margin-top: 20px;
     margin-bottom: 74px;
 }
-.block {
-    width: 300px;
-    height: 219px;
-    background: #F5F5F5;
-    margin-bottom: 38px;
-    display: flex;
-    margin-right: 20px;
 
+.brands article{
+    max-width: 300px;
 }
-
-.brands img {
-    margin: auto;
-}
-
-
-/*-------------class="projects"-------------------*/
-
-.projects_zone {
-    height: 1469px;
-    background: #F5F5F5;
-    display: flex;
-
-
-}
-
 
 .brands h2:after {
     content: "";
@@ -329,19 +300,17 @@ border: 1px solid #7EC4BD;
     margin-bottom: 43px;
     background: rgba(0, 0, 0, 0.09);
 }
+/*-------------class="projects"-------------------*/
 
-.projects_zone h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-    margin-top: 79px;
-
+.projects_zone{
+    background: #F5F5F5;
+    min-height: 1469px;
+    display: flex;
+    background-size: cover;
 }
+
+
+
 
 .projects_zone h4 {
     font-family: 'Montserrat', sans-serif;
@@ -368,14 +337,6 @@ border: 1px solid #7EC4BD;
 
 }
 
-.blocks_projects {
-    width: 300px;
-    height: 84px;
-    background: chartreuse;
-    display: flex;
-
-
-}
 
 .projects_zone h2:after {
     content: "";
@@ -390,6 +351,14 @@ border: 1px solid #7EC4BD;
 
 .projects_zone article {
     background: #FFFFFF;
-    margin-bottom: 20px;
     max-width: 300px;
+    margin-bottom: 20px;
 }
+
+
+
+/*max-width: 1200px;*/
+/*margin:auto;*/
+/*display: flex;*/
+/*justify-content: space-between;*/
+/*align-items: center*/
