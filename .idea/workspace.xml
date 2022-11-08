@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="Update5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="UpdateFrom Mac GUI">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1667895423489" duration="3104000" />
       <workItem from="1667899030001" duration="1101000" />
       <workItem from="1667901068224" duration="12000" />
-      <workItem from="1667901656427" duration="41000" />
+      <workItem from="1667901656427" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1667822869260</created>
@@ -129,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667865112486</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update5">
+      <created>1667901774504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667901774504</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UpdateFrom Mac GUI">
+      <created>1667901950157</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667901950157</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +165,8 @@
     <MESSAGE value="Update2" />
     <MESSAGE value="Update3" />
     <MESSAGE value="Update4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update4" />
+    <MESSAGE value="Update5" />
+    <MESSAGE value="UpdateFrom Mac GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpdateFrom Mac GUI" />
   </component>
 </project>
