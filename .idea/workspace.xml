@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="UpdateFrom Mac GUI">
+    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="Pictures corrected">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <workItem from="1667895423489" duration="3104000" />
       <workItem from="1667899030001" duration="1101000" />
       <workItem from="1667901068224" duration="12000" />
-      <workItem from="1667901656427" duration="443000" />
+      <workItem from="1667901656427" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1667822869260</created>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667901950157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pictures corrected">
+      <created>1667902174430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667902174430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     <MESSAGE value="Update4" />
     <MESSAGE value="Update5" />
     <MESSAGE value="UpdateFrom Mac GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="UpdateFrom Mac GUI" />
+    <MESSAGE value="Pictures corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pictures corrected" />
   </component>
 </project>
