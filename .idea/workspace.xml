@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="Update4">
-      <change beforePath="$PROJECT_DIR$/images/progress_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/solution_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/target_image.png" beforeDir="false" />
+    <list default="true" id="55eedeac-fd97-41fd-909a-39dc44733913" name="Changes" comment="Update5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +39,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Hillel/Aperture&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,6 +75,10 @@
       <workItem from="1667418807499" duration="17827000" />
       <workItem from="1667571472606" duration="3229000" />
       <workItem from="1667822831898" duration="12982000" />
+      <workItem from="1667895423489" duration="3104000" />
+      <workItem from="1667899030001" duration="1101000" />
+      <workItem from="1667901068224" duration="12000" />
+      <workItem from="1667901656427" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1667822869260</created>
